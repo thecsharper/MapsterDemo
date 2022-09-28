@@ -14,6 +14,6 @@
         
         public string ZipCode { get; set; } = null!;
 
-        public Address BillingAddress { get; set; }
+        public Address? BillingAddress { get; set; }
     }
 }
