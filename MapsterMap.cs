@@ -5,7 +5,7 @@ namespace MapsterDemo
 {
     public class MapsterMap
     {
-        public ModelDTO? MapTypes()
+        public static ModelDTO? MapTypes()
         {
             TypeAdapterConfig<Model, ModelDTO>
                 .NewConfig()

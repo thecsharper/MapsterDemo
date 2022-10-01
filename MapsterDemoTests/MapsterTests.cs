@@ -12,8 +12,11 @@ namespace MapsterDemoTests
         [Fact]
         public void ObjectMap_Test()
         {
-            var destination = new MapsterMap().MapTypes();
+            //Arrange
+            //Act
+            var destination = MapsterMap.MapTypes();
 
+            //Assert
             destination!.Id.Should().Be(1);
             destination.Name.Should().Be("Test Name");
             DateTime.TryParse(destination.CreatedAt, out DateTime dt);

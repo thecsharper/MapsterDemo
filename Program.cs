@@ -1,6 +1,6 @@
 ﻿using MapsterDemo;
 
-var destination = new MapsterMap().MapTypes();
+var destination = MapsterMap.MapTypes();
 
 Console.WriteLine(destination!.Id);
 Console.WriteLine(destination.Name);
