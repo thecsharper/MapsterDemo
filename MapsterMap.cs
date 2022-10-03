@@ -36,7 +36,6 @@ namespace MapsterDemo
             var destination = source.Adapt<ModelDTO>();
 
             return destination;
-
         }
     }
 }
